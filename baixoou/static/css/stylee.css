@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(82, 85, 94);
+}
+
+div.menu{
+    background-color: #298cf5;
+    height: 20vmin;
+    padding: 5vmin;
+    padding-top: 3vmin;
+    border-radius: 0 0 40vmin 5vmin;
+}
+
+.menu h1{
+    font-size: 3em;
+}
+
+.container{
+    margin-top: 7vmin;
+}
+
+.btn{
+    background-color: #298cf5;
+}
+
+#formats h2{
+    font-size: 1.5em;
+    display: none;
+}
+
+label.label-button{
+    display: inline;
+}
+
+.format-button{
+    color: #eee;
+    background-color: #298cf5;
+    margin-right: -20px;
+    padding: 1.5vmin;    
+    cursor: pointer;
+    border-radius: 4px;
+}
+
