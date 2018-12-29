@@ -1,0 +1,58 @@
+{% load static %}
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <title>Downloads Videos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/stylee.css' %}">
+</head>
+
+<body>
+    <div class='menu'>
+        <header>
+            <h1>DownVideo</h1>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="url" id="url" aria-describedby="helpId"
+                            placeholder="url" required>
+                        <br>
+                        <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId"
+                            placeholder="name">
+                        <br>
+                        <div id='formats'>
+                            <h2>Formats</h2>
+                            <label class="custom-control custom-radio label-button" for="mp3" aria-pressed="false">
+                                <input type="radio" name="format" value="mp3" id="mp3" class="custom-control-input">
+                                <span class="format-button">MP3</span>
+                            </label>
+                            <label class="custom-control custom-radio label-button" for="mp4" aria-pressed="false">
+                                <input type="radio" name="format" value="mp4" id="mp4" class="custom-control-input"
+                                    checked>
+                                <span class="format-button">MP4</span>
+                            </label>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Download</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
