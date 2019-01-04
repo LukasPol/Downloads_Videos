@@ -18,3 +18,4 @@ def downloads(url, nome, format):
                 video.download()
     except:
         pass
+        # print('ERRRO!!!')

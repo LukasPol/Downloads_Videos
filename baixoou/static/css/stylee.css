@@ -40,3 +40,21 @@ label.label-button{
     border-radius: 4px;
 }
 
+footer.final{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 5%;
+    padding-top: 1vmin;
+    background-color: #298cf5;
+    color:#eee;
+    text-align: center;
+}
+
+.final a{
+    color: #ddd;
+}
+.final #copyleft{
+    display:inline-block;
+    transform: rotate(180deg);
+}
